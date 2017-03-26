@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		929344241E87578500300678 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 929344211E87578500300678 /* main.m */; };
-		929344251E87578500300678 /* myFirstOCClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 929344231E87578500300678 /* myFirstOCClass.m */; };
+		9282F77D1E875A3600A3FE6F /* Animals.m in Sources */ = {isa = PBXBuildFile; fileRef = 9282F77C1E875A3600A3FE6F /* Animals.m */; };
+		9282F7801E875A4900A3FE6F /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 9282F77F1E875A4900A3FE6F /* Dog.m */; };
+		9282F7831E875A6300A3FE6F /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 9282F7821E875A6300A3FE6F /* Cat.m */; };
+		9293441B1E87575600300678 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9293441A1E87575600300678 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		920860CA1E6EE60300E5C995 /* CopyFiles */ = {
+		929344151E87575500300678 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,14 +26,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		920860CC1E6EE60300E5C995 /* myFirstOCClass */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = myFirstOCClass; sourceTree = BUILT_PRODUCTS_DIR; };
-		929344211E87578500300678 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		929344221E87578500300678 /* myFirstOCClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myFirstOCClass.h; sourceTree = "<group>"; };
-		929344231E87578500300678 /* myFirstOCClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myFirstOCClass.m; sourceTree = "<group>"; };
+		9282F77B1E875A3600A3FE6F /* Animals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animals.h; sourceTree = "<group>"; };
+		9282F77C1E875A3600A3FE6F /* Animals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animals.m; sourceTree = "<group>"; };
+		9282F77E1E875A4900A3FE6F /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		9282F77F1E875A4900A3FE6F /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		9282F7811E875A6300A3FE6F /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		9282F7821E875A6300A3FE6F /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		929344171E87575600300678 /* Animals */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Animals; sourceTree = BUILT_PRODUCTS_DIR; };
+		9293441A1E87575600300678 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		920860C91E6EE60300E5C995 /* Frameworks */ = {
+		929344141E87575500300678 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,98 +47,104 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		920860C31E6EE60200E5C995 = {
+		9293440E1E87575500300678 = {
 			isa = PBXGroup;
 			children = (
-				920860CE1E6EE60300E5C995 /* myFirstOCClass */,
-				920860CD1E6EE60300E5C995 /* Products */,
+				929344191E87575600300678 /* Animals */,
+				929344181E87575600300678 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		920860CD1E6EE60300E5C995 /* Products */ = {
+		929344181E87575600300678 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				920860CC1E6EE60300E5C995 /* myFirstOCClass */,
+				929344171E87575600300678 /* Animals */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		920860CE1E6EE60300E5C995 /* myFirstOCClass */ = {
+		929344191E87575600300678 /* Animals */ = {
 			isa = PBXGroup;
 			children = (
-				929344211E87578500300678 /* main.m */,
-				929344221E87578500300678 /* myFirstOCClass.h */,
-				929344231E87578500300678 /* myFirstOCClass.m */,
+				9282F77C1E875A3600A3FE6F /* Animals.m */,
+				9282F77B1E875A3600A3FE6F /* Animals.h */,
+				9293441A1E87575600300678 /* main.m */,
+				9282F77E1E875A4900A3FE6F /* Dog.h */,
+				9282F77F1E875A4900A3FE6F /* Dog.m */,
+				9282F7811E875A6300A3FE6F /* Cat.h */,
+				9282F7821E875A6300A3FE6F /* Cat.m */,
 			);
-			path = myFirstOCClass;
+			path = Animals;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		920860CB1E6EE60300E5C995 /* myFirstOCClass */ = {
+		929344161E87575500300678 /* Animals */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 920860D31E6EE60300E5C995 /* Build configuration list for PBXNativeTarget "myFirstOCClass" */;
+			buildConfigurationList = 9293441E1E87575600300678 /* Build configuration list for PBXNativeTarget "Animals" */;
 			buildPhases = (
-				920860C81E6EE60300E5C995 /* Sources */,
-				920860C91E6EE60300E5C995 /* Frameworks */,
-				920860CA1E6EE60300E5C995 /* CopyFiles */,
+				929344131E87575500300678 /* Sources */,
+				929344141E87575500300678 /* Frameworks */,
+				929344151E87575500300678 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = myFirstOCClass;
-			productName = myFirstOCClass;
-			productReference = 920860CC1E6EE60300E5C995 /* myFirstOCClass */;
+			name = Animals;
+			productName = Animals;
+			productReference = 929344171E87575600300678 /* Animals */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		920860C41E6EE60200E5C995 /* Project object */ = {
+		9293440F1E87575500300678 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = AnthonyZhai;
 				TargetAttributes = {
-					920860CB1E6EE60300E5C995 = {
+					929344161E87575500300678 = {
 						CreatedOnToolsVersion = 8.1;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 920860C71E6EE60300E5C995 /* Build configuration list for PBXProject "myFirstOCClass" */;
+			buildConfigurationList = 929344121E87575500300678 /* Build configuration list for PBXProject "Animals" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 920860C31E6EE60200E5C995;
-			productRefGroup = 920860CD1E6EE60300E5C995 /* Products */;
+			mainGroup = 9293440E1E87575500300678;
+			productRefGroup = 929344181E87575600300678 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				920860CB1E6EE60300E5C995 /* myFirstOCClass */,
+				929344161E87575500300678 /* Animals */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		920860C81E6EE60300E5C995 /* Sources */ = {
+		929344131E87575500300678 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				929344241E87578500300678 /* main.m in Sources */,
-				929344251E87578500300678 /* myFirstOCClass.m in Sources */,
+				9282F7831E875A6300A3FE6F /* Cat.m in Sources */,
+				9282F7801E875A4900A3FE6F /* Dog.m in Sources */,
+				9293441B1E87575600300678 /* main.m in Sources */,
+				9282F77D1E875A3600A3FE6F /* Animals.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		920860D11E6EE60300E5C995 /* Debug */ = {
+		9293441C1E87575600300678 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -179,7 +191,7 @@
 			};
 			name = Debug;
 		};
-		920860D21E6EE60300E5C995 /* Release */ = {
+		9293441D1E87575600300678 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -219,14 +231,14 @@
 			};
 			name = Release;
 		};
-		920860D41E6EE60300E5C995 /* Debug */ = {
+		9293441F1E87575600300678 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		920860D51E6EE60300E5C995 /* Release */ = {
+		929344201E87575600300678 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -236,25 +248,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		920860C71E6EE60300E5C995 /* Build configuration list for PBXProject "myFirstOCClass" */ = {
+		929344121E87575500300678 /* Build configuration list for PBXProject "Animals" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				920860D11E6EE60300E5C995 /* Debug */,
-				920860D21E6EE60300E5C995 /* Release */,
+				9293441C1E87575600300678 /* Debug */,
+				9293441D1E87575600300678 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		920860D31E6EE60300E5C995 /* Build configuration list for PBXNativeTarget "myFirstOCClass" */ = {
+		9293441E1E87575600300678 /* Build configuration list for PBXNativeTarget "Animals" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				920860D41E6EE60300E5C995 /* Debug */,
-				920860D51E6EE60300E5C995 /* Release */,
+				9293441F1E87575600300678 /* Debug */,
+				929344201E87575600300678 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 920860C41E6EE60200E5C995 /* Project object */;
+	rootObject = 9293440F1E87575500300678 /* Project object */;
 }
