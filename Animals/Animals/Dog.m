@@ -10,13 +10,13 @@
 
 @implementation Dog
 - (void)Run{
-    NSLog(@"狗在跑步");
+    NSLog(@"狗在跑步。");
 }
 - (void)Eat{
-    NSLog(@"够在吃饭");
+    NSLog(@"狗在吃饭。");
 }
 - (void)Sleep{
-    NSLog(@"狗在睡觉");
+    NSLog(@"狗在睡觉。");
 }
 - (void)setName:(NSString *)Name{
     _Name=Name;
@@ -31,10 +31,10 @@
     return _Variety;
 }
 - (void)watchDoor{
-    NSLog(@"狗在看门");
+    NSLog(@"狗在看门。");
 }
 - (void)Print{
-    NSLog(@"我是一只狗，我属于%@，我叫%@。\n",_Variety,_Name);
+    NSLog(@"我是一只狗，我属于%@，我叫%@。",_Variety,_Name);
     [super Print];
 }
 - (id)initWithName:(NSString *)Name Age:(NSInteger)Age Color:(NSString *)Color Variety:(NSString *)Variety{

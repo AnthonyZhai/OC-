@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		926ACEDA1E87FCFB00ABE0BF /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 926ACED91E87FCFB00ABE0BF /* Person.m */; };
 		9282F77D1E875A3600A3FE6F /* Animals.m in Sources */ = {isa = PBXBuildFile; fileRef = 9282F77C1E875A3600A3FE6F /* Animals.m */; };
 		9282F7801E875A4900A3FE6F /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 9282F77F1E875A4900A3FE6F /* Dog.m */; };
 		9282F7831E875A6300A3FE6F /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 9282F7821E875A6300A3FE6F /* Cat.m */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		926ACED81E87FCFB00ABE0BF /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = Person/Person.h; sourceTree = "<group>"; };
+		926ACED91E87FCFB00ABE0BF /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = Person/Person.m; sourceTree = "<group>"; };
 		9282F77B1E875A3600A3FE6F /* Animals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animals.h; sourceTree = "<group>"; };
 		9282F77C1E875A3600A3FE6F /* Animals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animals.m; sourceTree = "<group>"; };
 		9282F77E1E875A4900A3FE6F /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
@@ -47,9 +50,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		92208FE21E87D925001AD6AB /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				926ACED81E87FCFB00ABE0BF /* Person.h */,
+				926ACED91E87FCFB00ABE0BF /* Person.m */,
+			);
+			name = Person;
+			sourceTree = "<group>";
+		};
 		9293440E1E87575500300678 = {
 			isa = PBXGroup;
 			children = (
+				92208FE21E87D925001AD6AB /* Person */,
 				929344191E87575600300678 /* Animals */,
 				929344181E87575600300678 /* Products */,
 			);
@@ -66,9 +79,9 @@
 		929344191E87575600300678 /* Animals */ = {
 			isa = PBXGroup;
 			children = (
+				9293441A1E87575600300678 /* main.m */,
 				9282F77C1E875A3600A3FE6F /* Animals.m */,
 				9282F77B1E875A3600A3FE6F /* Animals.h */,
-				9293441A1E87575600300678 /* main.m */,
 				9282F77E1E875A4900A3FE6F /* Dog.h */,
 				9282F77F1E875A4900A3FE6F /* Dog.m */,
 				9282F7811E875A6300A3FE6F /* Cat.h */,
@@ -136,6 +149,7 @@
 			files = (
 				9282F7831E875A6300A3FE6F /* Cat.m in Sources */,
 				9282F7801E875A4900A3FE6F /* Dog.m in Sources */,
+				926ACEDA1E87FCFB00ABE0BF /* Person.m in Sources */,
 				9293441B1E87575600300678 /* main.m in Sources */,
 				9282F77D1E875A3600A3FE6F /* Animals.m in Sources */,
 			);

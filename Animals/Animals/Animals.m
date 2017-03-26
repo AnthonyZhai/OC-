@@ -22,16 +22,16 @@
     return _Age;
 }
 - (void)Eat{
-    NSLog(@"吃");
+    NSLog(@"吃。");
 }
 - (void)Run{
-    NSLog(@"跑");
+    NSLog(@"跑。");
 }
 - (void)Sleep{
-    NSLog(@"睡");
+    NSLog(@"睡。");
 }
 - (void)Print{
-    NSLog(@"我是%@色,我%ld岁了。\n",_Color,_Age);
+    NSLog(@"我是%@色,我%ld岁了。",_Color,_Age);
 }
 - (id)initWithAge:(NSInteger)Age :(NSString *)Color{
     self = [super init];

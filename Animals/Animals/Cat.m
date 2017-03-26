@@ -10,19 +10,19 @@
 
 @implementation Cat
 - (void)catchMice{
-    NSLog(@"猫在抓老鼠");
+    NSLog(@"猫在抓老鼠。");
 }
 - (void)Run{
-    NSLog(@"猫在奔跑");
+    NSLog(@"猫在奔跑。");
 }
 - (void)Sleep{
-    NSLog(@"猫在睡觉");
+    NSLog(@"猫在睡觉。");
 }
 - (void)Eat{
-    NSLog(@"猫在吃饭");
+    NSLog(@"猫在吃饭。");
 }
 - (void)Print{
-    NSLog(@"我是一只猫\n");
+    NSLog(@"我是一只猫。");
     [super Print];
 }
 - (id)initWithAge:(NSInteger)Age Color:(NSString *)Color{
